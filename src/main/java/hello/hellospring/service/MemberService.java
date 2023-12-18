@@ -11,12 +11,12 @@ import java.util.Optional;
 
 //ctrl + shift + T 로 test 코드 생성 가능
 //service 어노테이션을 추가해줘야 spring이 멤버 서비스를 감싸주는 것. bean으로 등록이 가능.
-@Service
+//@Service
 public class MemberService {
 
     private final MemberRepository memberRepository;
 
-    @Autowired
+    //@Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
